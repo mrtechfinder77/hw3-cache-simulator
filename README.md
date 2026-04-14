@@ -10,6 +10,9 @@ This program simulates a cache. It takes the total number of cache entries, the 
 g++ -o cache_sim cache_sim.cpp
 
 ## Run
+.\cache_sim.exe <num_entries> <associativity> <input_file>
+
+Example:
 .\cache_sim.exe 4 2 input0
 
 ## Output
