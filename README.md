@@ -10,24 +10,13 @@ This program simulates a cache. It takes the total number of cache entries, the 
 g++ -o cache_sim cache_sim.cpp
 
 ## Run
-
-Windows (PowerShell):
 .\cache_sim.exe 4 2 input0
 
-Linux/Mac:
-./cache_sim 4 2 input0
-
 ## Output
-
-The program writes results to a file named:
+The program writes results to:
 cache_sim_output
 
-Each line of the output file follows this format:
+Each line follows:
 [ADDRESS] : HIT
 or
 [ADDRESS] : MISS
-
-## Notes
-- The cache starts empty (all entries invalid)
-- Each cache block holds one word
-- A FIFO-style replacement policy is used
